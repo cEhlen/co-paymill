@@ -1,0 +1,33 @@
+{
+  "name": "co-paymill",
+  "version": "1.0.0",
+  "description": "co-paymill ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --harmony tests -u bdd -R dot --require should"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cEhlen/co-paymill.git"
+  },
+  "keywords": [
+    "paymill",
+    "payment",
+    "credit card"
+  ],
+  "author": "Christoph Ehlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cEhlen/co-paymill/issues"
+  },
+  "homepage": "https://github.com/cEhlen/co-paymill",
+  "dependencies": {
+    "paymill-node": "~0.1.2",
+    "thunkify": "~2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "co": "*",
+    "should": "*"
+  }
+}
