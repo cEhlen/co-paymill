@@ -1,7 +1,7 @@
 co-paymill
 ==========
 
-co-paymill is a wrapper to use [paymill-node](https://github.com/komola/paymill-node) with generators.
+co-paymill is a wrapper to use [paymill-node](https://github.com/komola/paymill-node) with generators...
 
 Installation
 ============
